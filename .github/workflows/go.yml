@@ -32,3 +32,6 @@ jobs:
 
     - name: Build
       run: go build -v ./haversine/
+
+    - name: Test
+      run: go test -v ./...
